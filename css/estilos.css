@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;400display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    }
+body
+ {
+    font-family: 'Anuphan', sans-serif;
+}
+
+.contenedor {
+    
+    padding:60px 0;
+   width: 90%;
+   max-width: 1000px;
+   margin: auto; 
+   overflow: hidden;
+
+    }
+
+
+.titulo {
+    
+       color: #bab9e3;
+       font-size: 30px;
+       text-align: center;
+       margin-bottom: 60px;
+    
+        }
+
+header {
+    
+            width: 100%;
+height: 600px;
+background: #4884a3;
+
+background: -webkit-linear-gradient(to right, hsla(0, 0%, 92%, 0.459), hsla(237, 100%, 38%, 0.664)), url(../imagenes/back.jpg);
+
+background: linear-gradient(to right, hsla(208, 78%, 53%, 0.46), hsla(215, 63%, 67%, 0.664)), url(../imagenes/back.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+ position: relative;
+}
+
+nav{
+    
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+    nav > a:hover{
+        text-decoration : underline;
+    }
+    
+    header .textos-header{
+        display: flex;
+        height: 430px;
+
+    width: 100%;
+     align-items: center;
+     justify-content: center;
+      flex-direction: column ;
+      text-align: center;
+ } 
+    
+    .textos-header h1{
+        font-size: 50px;
+        color: #fff;
+    }
+    
+    .textos-header h2{
+        font-size: 30px;
+        font-weight: 300;
+        color:#fff;
+    }
+    
+    .wave{
+        position: absolute;
+        bottom: 0;
+        width: 180%;
+    }
+
+    main .sobre-nosotros{
+      padding: 30px 0 60px 0;
+    }
+
+    .contenedor-sobre-nosotros{
+        display:flex;
+        justify-content: space-evenly;
+    
+    }
+
+        .imagen-about-us{
+            width: 48%; 
+        }
+    
+        .sobre-nosotros .contenido-textos{
+            width: 48%; 
+        }
+    .contenido-textos h3{
+            margin-bottom: 15px;
+        }
+    .contenido-textos h3 span{
+           background: #03d9ed;
+            color: #fff;
+            border-radius: 50%;
+            display: inline-block;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            padding: 2px;
+            box-shadoW: 0 0 6px rgba(0, 0, 0, .5);
+            margin-right: 5px;
+            }
+            
+            .contenido-textos p{
+                padding: 0px 0px 30px 15px;
+            font-weight: 300;
+            text-align: justify;
+            }
+
+            .details{
+                width: 100%;
+                max-width: 500px;
+                position: relative;
+                top: 25px;
+                color: black;
+            }
+                footer{
+                background: #250b2cca;
+                padding: 40px 0 30px 0;
+                margin: auto;
+                overflow: hidden;
+                } 
+                .titulo-final{
+                text-align: center;
+                font-size: 24px;
+                margin: 10px 0 0 0;
+                color: #ffffff;
+                }
+                @media screen and (max-width:900px){
+                    header{
+                    background-position: center;
+                    }
+                    .contenedor-sobre-nosotros{
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    }
+                    .sobre-nosotros .contenido-textos{
+                    width: 90%;
+                    }
+                .imagen-about-us{
+                    width: 90%;
+                }
+    
+                @media screen and (max-width:500px){
+                    nav{
+                        text-align: center;
+                        padding: 30px 0 0 0;
+                    }
+                
+                nav > a{
+
+                    margin-right: 5px;
+                } 
+                    .textos-header h1{
+                    font-size: 35px;
+                    }
+                    .textos-header h2{
+                    font-size: 20px;
+                    }
+                    .imagen-about-us{
+                        margin-bottom: 60px;
+                        width: 99%;
+                        }
+                        .sobre-nosotros .contenido-textos{
+                        width: 95%;
+                        }
+                        
+                        /* Footer */
+                        .contenedor-footer{
+                        flex-direction: column;
+                        border: none;
+                        }
+                        .content-foo p{
+                        color: #ccc;
+                        border-bottom: 1px solid #f2f2f2;
+                        padding-bottom: 20px;
+                        }
+                        .titulo-final{
+                        font-size: 20px;
+                        }
+                        }
+                        }
